@@ -1,0 +1,205 @@
+body {
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 60px;
+}
+
+button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1, h3 {
+    font-family: 'Source Code Pro', monospace; 
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    text-align: left;
+}
+
+ol {
+    text-align: left;
+    margin: 25px 0px 10px;
+    padding-left: 40px;
+}
+
+/* top horizontal rule */
+.top {
+    margin-top: 3%;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 2%;
+}
+
+/* Navbar */
+.navbar {
+    background-color: black !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1% 10%;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+    text-align: right;
+    padding-left: 40px !important;
+}
+
+/* Title section */
+
+
+/* Favourite Projects section */
+section#favourites {
+    padding: 1% 10%;
+}
+
+.arrow {
+    color: black;
+}
+
+.favourites-title {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.carousel-img {
+    width: 45%;
+    border-radius: 10px;
+    border: solid 2px black;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, .8);
+}
+
+.project-title {
+    padding-top: 20px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+/* About section */
+section#about {
+    padding-bottom: 3%;
+}
+
+.rules.container-fluid {
+    padding: 0% 15%;     
+}
+
+.about-text {
+    padding: 0% 5%;
+}
+
+
+/* 100 days section */
+#days .container-fluid {
+    padding: 0, 5%, 5%;
+    margin: 0;
+
+  }
+
+.day-image {
+    padding: 2%;
+    border-bottom: 1px solid black;
+}
+
+.card-title {
+    text-align: left;
+}
+
+.card-text, .card-title {
+    color: #222121;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+
+.card-deck .card {
+    margin-bottom: 25px !important;
+}
+
+.btn {
+    background: black;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    border: none;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    font-size: 16px;
+    padding: 7px 10px;
+    text-decoration: none;
+    margin: 2px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .btn:hover {
+    background: gray;
+    color: #221121;
+    text-decoration: none;
+  }
+
+  /* footer section */
+  footer {
+      padding: 2% 0;
+  }
+  .contact-icons {
+      color: black;
+      padding: 10px 20px;
+  }
+
+  .contact-icons:hover {
+      color: gray;
+  }
+
+  .copyright {
+      text-align: center;
+      padding-top: 3%;
+  }
+
+  @media (max-width: 1000px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: .9rem;
+    }
+    
+    section#favourites {
+        padding: 1% 7%;
+    }
+
+    .carousel-img {
+        width: 75%;
+    }
+
+    .rules.container-fluid {
+        padding: 0% 8%;     
+    }
+
+    .card-title {
+        font-weight: bold;
+    }
+  }
